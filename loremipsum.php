@@ -10,7 +10,9 @@ if ($_SESSION["loggedin"] == false){
 <title>Lorem Ipsum</title>
 </head>
 <body>
-
+<?php
+echo $_SESSION["username"];
+?>
 <p>Lorem ipsum</p>
 <a href="logout.php">Logout</a>
 
